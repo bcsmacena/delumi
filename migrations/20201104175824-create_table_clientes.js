@@ -23,7 +23,7 @@ module.exports = {
       },
       endereco_cep:
       {
-        type: Sequelize.INTEGER(8),
+        type: Sequelize.STRING(8),
         allowNull: false
       },
       endereco_numero:

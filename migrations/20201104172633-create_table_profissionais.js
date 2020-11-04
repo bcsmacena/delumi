@@ -37,14 +37,9 @@ module.exports = {
         type: Sequelize.STRING(1),
         allowNull: false
       },
-      cep:
-      {
-        type: Sequelize.STRING(8),
-        allowNull: false
-      },
       endereco_cep:
       {
-        type: Sequelize.INTEGER(8),
+        type: Sequelize.STRING(8),
         allowNull: false
       },
       endereco_numero:
